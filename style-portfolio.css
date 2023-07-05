@@ -1,6 +1,10 @@
+/* ********************* STYLE GENERAL ********************** */
+
 h1,h2{
   padding: 20px;
 }
+
+/* ********************* SECTION PROJET ********************** */
 
 .project{
   background-color: white;
