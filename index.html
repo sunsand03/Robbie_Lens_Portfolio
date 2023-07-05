@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil - Robbie Lens Photographie</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-index.css" />
+  </head>
+  
+  <body>
+    <!-- insert le logo -->
+    <header>
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="logo"
+      /></a>
+
+      <!--crée la barre de navigation-->  
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="a-propos.html">A propos</a>
+        <a href="portfolio.html">Portfolio</a>
+      </nav>
+
+    </header>
+
+    <main>
+      <section class="content-home">
+        <!-- Paragraphe de présentation -->
+        <div class="content">
+          <h1>Robbie Lens Photographie</h1>
+          <p>
+            Où <em>professionalisme</em> s’allie avec passion. Depuis plus de 5
+            ans maintenant, j’exerce mon métier avec la <em>passion</em> qui
+            m’anime : capturer l’essence de chaque instant.
+          </p>
+
+          <!--insert un bouton call to action -->
+          <a href="mailto:robbie.lens@gmail.com" class="cta"
+            >Un projet ? écrivez-moi</a
+          >
+        </div>
+
+        <!--insert le portrait de Robbie lens-->
+        <img
+          src="images/robbie-lens.png"
+          alt="image de Robbie Lens"
+          class="picture-home"
+        />
+      </section>
+
+      <!--crée une section pour afficher les derniers clichés-->
+
+      <section class="last-project">
+        <h2>Mon dernier projet</h2>
+
+        <div class="first-rank">
+          <img
+            src="images\accueil\element-1.png"
+            alt="Twelve apostles - Australie"
+          />
+          <img
+            src="images/accueil/element-2.png"
+            alt="Wai-O-Tapu - Nouvelle-Zélande"
+          />
+          <img
+            src="images/accueil/element-3.png"
+            alt="Parc National d’Abel Tasman - Nouvelle-Zélande"
+          />
+        </div>
+
+        <div class="second-rank">
+          <img
+            src="images/accueil/element-4.png"
+            alt="Lac Rotorua - Nouvelle-Zélande"
+          />
+          <img
+            src="images/accueil/element-5.png"
+            alt="Milford Sound - Nouvelle-Zélande"
+          />
+          <img
+            src="images/accueil/element-6.png"
+            alt="Lac Wanaka - Nouvelle-Zélande"
+          />
+        </div>
+      </section>
+
+      <!--crée un formulaire de contact-->
+    
+      <section class="contact">
+        <h2>Parlons de votre projet</h2>
+
+        <form action="traitement.php" method="post">
+          <label for="name" class="name">nom</label>
+          <input type="text" id="name" />
+
+          <label for="email" class="email">email</label>
+          <input type="email" id="email" />
+
+          <label for="message" class="message">message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            value="décrivez brièvement votre projet"
+          ></textarea>
+
+          <input type="submit" value="Envoyer" id="btn" class="cta" />
+        </form>
+
+      </section>
+    </main>
+
+    <!--insère un pied de page avec les différents logos-->
+    <footer>
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="logo"
+      /></a>
+
+      <!-- insère les logos des réseaux sociaux   -->
+      <div class="icon">                                  
+        <a href="https://twitter.com/">
+          <img src="images/twitter.png" alt="icone twitter"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="images/instagram.png" alt="icone instagram"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
