@@ -1,0 +1,109 @@
+section{
+  padding: 80px;
+}
+
+.content{
+  width: 40%;
+}
+
+.content-home {
+  display: flex;
+  margin-left: 120px;
+  justify-content: center;
+}
+
+
+
+.content p {
+  padding: 20px 0px 40px 0px;
+  margin-bottom: 40px;
+}
+
+.picture-home {
+  width: 30%;
+  margin-left: 40px;
+}
+
+.last-project {
+  display: grid;
+  background-color: white;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 1.5em;
+  font-family: "Manrope", sans-serif;
+}
+
+.first-rank,
+.second-rank {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.first-rank img,
+.second-rank img {
+  margin-right: 10px;
+}
+
+.contact h2 {
+  color: #a5b4fc;
+}
+
+form {
+  color: white;
+  display: grid;
+  font-family: "Manrope", sans-serif;
+  margin: 15px;
+  border: 1px solid #1f2039;
+  padding-bottom: 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20px 50px 20px 200px 20px;
+  row-gap: 10px;
+  column-gap: 20px;
+  grid-template-areas:
+    "la1 la2"
+    "i1 i2"
+    "la3 vi"
+    "ta ta"
+    "bt bt";
+}
+
+textarea {
+  grid-area: ta;
+}
+.name {
+  grid-area: la1;
+}
+#name {
+  grid-area: i1;
+}
+.email {
+  grid-area: la2;
+}
+#email {
+  grid-area: i2;
+}
+
+#btn {
+  grid-area: bt;
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(90deg, #8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  text-transform: uppercase;
+  justify-self: center;
+}
+
+#btn:hover {
+  background: linear-gradient(90deg, #696484, #8788ba);
+}
+
+input,
+textarea {
+  border-radius: 5px;
+}
