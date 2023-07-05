@@ -1,6 +1,17 @@
+/* ********************* STYLE GENERAL ********************** */
+
 section{
   padding: 80px;
 }
+
+h2 {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 1.5em;
+  font-family: "Manrope", sans-serif;
+}
+
+/* ********************* SECTION CONTENT-HOME ********************** */
 
 .content{
   width: 40%;
@@ -30,13 +41,7 @@ section{
   justify-content: center;
 }
 
-h2 {
-  text-align: center;
-  padding-bottom: 40px;
-  font-size: 1.5em;
-  font-family: "Manrope", sans-serif;
-}
-
+/* ********************* SECTION LAST PROJECT ********************** */
 .first-rank,
 .second-rank {
   display: grid;
@@ -52,6 +57,8 @@ h2 {
 .contact h2 {
   color: #a5b4fc;
 }
+
+/* ********************* SECTION CONTACT ********************** */
 
 form {
   color: white;
