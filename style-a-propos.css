@@ -1,3 +1,35 @@
+/* ********************* STYLE GENERAL  *************************** */
+
+h1, h2{
+  text-align: center;
+}
+
+h1, p,ul{
+  padding-bottom: 40px;
+
+  
+}
+
+h2{
+  color: #f9f8ff;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 1.5em;
+}
+
+p,ul{
+  font-size: 1.1em;
+}
+
+ul {
+  font-size: 1em;
+  font-family: "Manrope", sans-serif;
+  color: #f9f8ff;
+  
+}
+
+/* ********************* MAIN *************************** */
+
 main {
   margin: 0;
   padding: 0;
@@ -6,6 +38,8 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+/* ********************* SECTION ABOUT *************************** */
 
 .about {
   border-right: 1px solid #a5b4fc;
@@ -18,33 +52,7 @@ main {
   margin-bottom: 20px;
   }
 
-  h1, h2{
-    text-align: center;
-  }
-
-  h1, p,ul{
-    padding-bottom: 40px;
-
-    
-  }
-
-  h2{
-    color: #f9f8ff;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    font-size: 1.5em;
-  }
-
-  p,ul{
-    font-size: 1.1em;
-  }
-
-  ul {
-    font-size: 1em;
-    font-family: "Manrope", sans-serif;
-    color: #f9f8ff;
-    
-  }
+/* ********************* TABLEAU *************************** */  
 
   table{
     color: #f9f8ff;
